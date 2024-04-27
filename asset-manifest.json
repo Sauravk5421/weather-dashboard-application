@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/weather-dashboard-application/static/css/main.8216a1fd.css",
+    "main.css": "/weather-dashboard-application/static/css/main.57b0700d.css",
     "main.js": "/weather-dashboard-application/static/js/main.6a64cef9.js",
     "static/js/453.a37b1587.chunk.js": "/weather-dashboard-application/static/js/453.a37b1587.chunk.js",
-    "static/media/Cloudy.jpg": "/weather-dashboard-application/static/media/Cloudy.088872f0d6b8fc625f84.jpg",
-    "static/media/rainy.jpg": "/weather-dashboard-application/static/media/rainy.104c18a6cf8177a2b066.jpg",
-    "static/media/Sunny.jpg": "/weather-dashboard-application/static/media/Sunny.0f2149913e1f9a32ea2f.jpg",
+    "static/media/Cloudy.jpg": "/weather-dashboard-application/static/media/Cloudy.64d45630f5a8c1825aa9.jpg",
+    "static/media/rainy.jpg": "/weather-dashboard-application/static/media/rainy.23ef7f1fc8bd0ba7a04e.jpg",
+    "static/media/Clear.jpg": "/weather-dashboard-application/static/media/Clear.badf41ef3a683986c93c.jpg",
+    "static/media/Sunny.jpg": "/weather-dashboard-application/static/media/Sunny.1933d64b3a4f8c32513a.jpg",
     "static/media/fog.png": "/weather-dashboard-application/static/media/fog.0ae156051d06c1ae77f6.png",
     "static/media/Stormy.jpg": "/weather-dashboard-application/static/media/Stormy.23b1da6c8ab25b68bdc6.jpg",
     "static/media/misty.jpg": "/weather-dashboard-application/static/media/misty.95b83df675c31a02dc1c.jpg",
     "static/media/snow.jpg": "/weather-dashboard-application/static/media/snow.cdaa77e33d45944a0610.jpg",
     "static/media/logo.svg": "/weather-dashboard-application/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/weather-dashboard-application/index.html",
-    "main.8216a1fd.css.map": "/weather-dashboard-application/static/css/main.8216a1fd.css.map",
+    "main.57b0700d.css.map": "/weather-dashboard-application/static/css/main.57b0700d.css.map",
     "main.6a64cef9.js.map": "/weather-dashboard-application/static/js/main.6a64cef9.js.map",
     "453.a37b1587.chunk.js.map": "/weather-dashboard-application/static/js/453.a37b1587.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8216a1fd.css",
+    "static/css/main.57b0700d.css",
     "static/js/main.6a64cef9.js"
   ]
 }
