@@ -63,7 +63,7 @@ After that run:
 2: Click on search, you will get the details of current temperature of entered city.
 
 3. If the city name is invalid or can not be found, an error message is displayed.
-   
+
 4. Try to search for another city name.
 
 
