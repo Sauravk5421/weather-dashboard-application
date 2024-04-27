@@ -58,9 +58,9 @@ After that run:
 
 ## How to use application:
 
-1: Enter any city name.
+1. Enter any city name.
 
-2: Click on search, you will get the details of current temperature of entered city.
+2. Click on search, you will get the details of current temperature of entered city.
 
 3. If the city name is invalid or can not be found, an error message is displayed.
 
