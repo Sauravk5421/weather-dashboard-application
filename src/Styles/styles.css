@@ -1,0 +1,190 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ----container box------------ */
+
+#container{
+    box-sizing: border-box;
+    background-size: 100% 100%;
+    height: 100vh;
+    position: relative;
+    padding: 30px;
+}
+
+#container::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    
+}
+
+#container input, button{
+    position: relative;
+    z-index: 100;
+    color: yellow;
+}
+
+.input-container{
+    background-color: rgba(0,0,0,0.5);
+    padding: 25px 0;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.input-btn{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+input{
+    padding: 10px;
+    width: 50%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgba(100, 97, 97, 0.5);
+    border: 1px solid black;
+    font-size: 1.5vw;
+}
+
+input::placeholder{
+    color: yellow;
+}
+
+button{
+    width: 15%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: bold;
+    font-size: 1.5vw;
+    border: 1px solid black;
+    background-color: rgba(100, 97, 97, 0.5);
+    cursor: pointer;
+}
+
+
+/* -------card container------------------- */
+
+.card-container{
+    position: relative;
+    color: yellow;
+    z-index: 111;
+    margin-top: 2em
+}
+
+
+[class*="clear"]{
+    background-image: url('./Images/Sunny.jpg') ;
+}
+
+[class*="clouds"]{
+    background-image: url('./Images/Cloudy.jpg');
+}
+
+[class*="rain"],[class*="drizzle"]{
+    background-image: url('./Images/rainy.jpg');
+}
+
+.rain{
+    background-image: url('./Images/rainy.jpg');
+}
+
+[class*="thunderstorm"]{
+    background-image: url('./Images/Stormy.jpg');
+}
+
+[class*="snow"]{
+    background-image: url('./Images/snow.jpg');
+ 
+}
+
+[class*="mist"]{
+    background-image: url('./Images/misty.jpg'); 
+}
+
+[class*="fog"], [class*="haze"], [class*="dust"], [class*="smoke"], 
+[class*="sand"], [class*="ash"], [class*="squall"], [class*="tornado"]{
+    background-image: url('./Images/fog.png'); 
+}
+
+
+
+/* ---------Main Data------------ */
+
+.main-data{
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,0.5);
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 15px 40px;
+}
+
+.description-data, .country-data{
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.temp-data{
+    font-weight: bold;
+    font-size: 5vw;
+}
+
+
+/* ------------other data------- */
+
+.other-data{
+    width: 70%;
+    margin: auto;
+}
+
+.detail{
+    background-color: rgba(0,0,0,0.5);
+    padding: 15px;
+    min-width: 20%;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.details-row1, .details-row2{
+    display: flex;
+    justify-content: space-between;
+}
+
+p{
+    font-size: 1.5vw;
+}
+
+span{
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+/* ---------------error message container-------------- */
+
+.error-message{
+    padding: 5px;
+    color: rgb(255, 253, 253);
+    height: 10px;
+    text-align: center;
+}
+
+.no-error{
+    padding: 5px;
+    visibility: hidden;
+    height: 10px;
+}
