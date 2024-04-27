@@ -110,6 +110,10 @@ button{
     background-image: url('./Images/misty.jpg'); 
 }
 
+[class*="clear"]{
+    background-image: url('./Images/Clear.jpg'); 
+}
+
 [class*="fog"], [class*="haze"], [class*="dust"], [class*="smoke"], 
 [class*="sand"], [class*="ash"], [class*="squall"], [class*="tornado"]{
     background-image: url('./Images/fog.png'); 
